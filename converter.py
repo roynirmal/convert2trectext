@@ -2,7 +2,7 @@
 import json
 docs = json.load(open('/data/document_passages.json'))
 
-finput = open(' /data/input_file.txt', 'w+')
+finput = open('/data/input_file.txt', 'w+')
 
 for i in range(len(docs)):
     for doc_id in docs[str(i)].keys():
