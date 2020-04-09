@@ -1,5 +1,4 @@
-import pandas as pd
-import numpy as np
+
 import json
 docs = json.load(open('/data/WikiPassageQA/document_passages.json'))
 
