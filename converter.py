@@ -1,6 +1,6 @@
 
 import json
-docs = json.load(open('/data/WikiPassageQA/document_passages.json'))
+docs = json.load(open('/data/document_passages.json'))
 
 finput = open(' /data/input_file.txt', 'w+')
 
